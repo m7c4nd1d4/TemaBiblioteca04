@@ -1,0 +1,16 @@
+﻿<Window x:Class="Tema04B.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema04B"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="324" Width="226" Background="DarkGreen">
+    <Grid HorizontalAlignment="Left" Width="227">
+        <Button Name="Button_Genero" Content="Cadastrar Genero" HorizontalAlignment="Left" Height="38" Margin="29,77,0,0" VerticalAlignment="Top" Width="168" Click="Button_Genero_Click" BorderThickness="2"/>
+        <Button Name="Button_Livro" Content="Cadastrar Livro" HorizontalAlignment="Left" Height="38" Margin="29,158,0,0" VerticalAlignment="Top" Width="168" Click="Button_Livro_Click" BorderThickness="2"/>
+        <Button Name="Button_Exemplar" Content="Cadastrar Exemplar" HorizontalAlignment="Left" Height="38" Margin="29,243,0,0" VerticalAlignment="Top" Width="168" Click="Button_Exemplar_Click" BorderThickness="2"/>
+        <TextBlock HorizontalAlignment="Center" Height="62" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207"><Run Language="pt-br" Text="APP de Registramento e Controle Bibliotecário IFRN" FontSize="17" /></TextBlock>
+
+    </Grid>
+</Window>

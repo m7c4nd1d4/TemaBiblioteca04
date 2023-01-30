@@ -1,0 +1,27 @@
+﻿<Window x:Class="Tema04B.Janela_Livro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema04B"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid Margin="0,0,0,-137">
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Id" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="55,10,0,0" Text="Nome" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="161,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Escritor"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="265,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Editora"/></TextBlock>
+        <TextBox Name="txtId" HorizontalAlignment="Left" Margin="10,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+        <TextBox Name="txtNome" HorizontalAlignment="Left" Margin="55,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <TextBox Name="txtMatricula" HorizontalAlignment="Left" Margin="160,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <TextBox Name="txtEmail" HorizontalAlignment="Left" Margin="265,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="10,53,0,0" VerticalAlignment="Top" Width="61"/>
+        <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="197,54,0,0" VerticalAlignment="Top" Width="87" Height="27"/>
+        <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="76,53,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="143,53,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.723,0.402"/>
+        <ListBox Name="listAlunos" Margin="10,0,10,0" Height="174" VerticalAlignment="Center" SelectionChanged="listAlunos_SelectionChanged" />
+        <TextBlock HorizontalAlignment="Left" Margin="371,10,0,0" Text="Valor" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.551,-0.52"/>
+        <TextBox HorizontalAlignment="Left" Margin="370,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+    </Grid>
+
+</Window>
