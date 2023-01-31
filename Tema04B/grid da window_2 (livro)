@@ -1,0 +1,17 @@
+<Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Id" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="55,10,0,0" Text="Id Genero" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="161,10,0,0" Text="Valor" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="265,10,0,0" Text="Escritor" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox Name="txtId" HorizontalAlignment="Left" Margin="10,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+        <TextBox Name="txtIdGenero" HorizontalAlignment="Left" Margin="55,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <TextBox Name="txtValor" HorizontalAlignment="Left" Margin="160,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <TextBox Name="txtEscritor" HorizontalAlignment="Left" Margin="265,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="10,53,0,0" VerticalAlignment="Top"/>
+        <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="52,53,0,0" VerticalAlignment="Top"/>
+        <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="89,53,0,0" VerticalAlignment="Top"/>
+        <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="144,53,0,0" VerticalAlignment="Top"/>
+        <ListBox Name="listLivros" Margin="10,80,15,15" />
+        <TextBlock HorizontalAlignment="Left" Margin="370,13,0,0" Text="Editora" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox Name="txtEditora" HorizontalAlignment="Left" Margin="370,29,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+    </Grid>
