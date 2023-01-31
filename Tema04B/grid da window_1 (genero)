@@ -1,0 +1,11 @@
+<Grid Margin="0,0,0,-6">
+        <TextBlock HorizontalAlignment="Left" Margin="15,10,0,0" Text="Id" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="1.849,0.586"/>
+        <TextBlock HorizontalAlignment="Left" Margin="76,13,0,0" Text="Nome" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="4.009,-2.39"/>
+        <TextBox Name="txtId" HorizontalAlignment="Left" Margin="15,31,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="50"/>
+        <TextBox Name="txtNome" HorizontalAlignment="Left" Margin="76,31,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="125"/>
+        <Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Width="61" RenderTransformOrigin="0.136,0.662"/>
+        <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="10,294,0,0" VerticalAlignment="Top" Width="87" Height="27"/>
+        <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="76,73,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="0.396,0.941"/>
+        <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="141,73,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.723,0.402" Width="60"/>
+        <ListBox Name="listAlunos" Margin="10,104,10,0"  Height="185" VerticalAlignment="Top" />
+    </Grid>
